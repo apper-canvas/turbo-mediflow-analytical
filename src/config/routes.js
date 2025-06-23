@@ -1,10 +1,11 @@
-import Dashboard from '@/components/pages/Dashboard';
-import Doctors from '@/components/pages/Doctors';
-import Patients from '@/components/pages/Patients';
-import Appointments from '@/components/pages/Appointments';
-import Billing from '@/components/pages/Billing';
-import Prescriptions from '@/components/pages/Prescriptions';
-
+import React from "react";
+import Billing from "@/components/pages/Billing";
+import Patients from "@/components/pages/Patients";
+import Dashboard from "@/components/pages/Dashboard";
+import Doctors from "@/components/pages/Doctors";
+import Prescriptions from "@/components/pages/Prescriptions";
+import Appointments from "@/components/pages/Appointments";
+import Feedback from "@/components/pages/Feedback";
 export const routes = {
   dashboard: {
     id: 'dashboard',
@@ -41,12 +42,19 @@ export const routes = {
     icon: 'CreditCard',
     component: Billing
   },
-  prescriptions: {
+prescriptions: {
     id: 'prescriptions',
     label: 'Prescriptions',
     path: '/prescriptions',
     icon: 'FileText',
     component: Prescriptions
+  },
+  feedback: {
+    id: 'feedback',
+    label: 'Feedback',
+    path: '/feedback',
+    icon: 'MessageCircle',
+    component: Feedback
   }
 };
 

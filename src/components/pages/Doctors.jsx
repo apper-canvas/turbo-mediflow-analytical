@@ -111,11 +111,37 @@ const Doctors = () => {
         </div>
       )
     },
-    {
+{
       key: 'yearsExperience',
       title: 'Experience',
       sortable: true,
       render: (value) => `${value} years`
+    },
+    {
+      key: 'rating',
+      title: 'Rating',
+      sortable: true,
+      render: (value, item) => (
+        <div className="flex items-center gap-2">
+          <div className="flex items-center">
+            {[1, 2, 3, 4, 5].map((star) => (
+              <ApperIcon
+                key={star}
+                name="Star"
+                size={14}
+                className={
+                  star <= (value || 0)
+                    ? 'text-yellow-400 fill-current'
+                    : 'text-surface-300'
+                }
+              />
+            ))}
+          </div>
+          <span className="text-sm text-surface-600">
+            ({item.reviewCount || 0})
+          </span>
+        </div>
+      )
     },
     {
       key: 'status',

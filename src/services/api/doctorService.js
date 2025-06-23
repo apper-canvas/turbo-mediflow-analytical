@@ -59,11 +59,41 @@ export const doctorService = {
     doctors.splice(index, 1);
     return { ...deletedDoctor };
   },
-
-  async getAvailable(date, time) {
+async getAvailable(date, time) {
     await delay(200);
     // Simple availability check - in real app would check appointments
     return doctors.filter(d => d.status === 'active');
+  },
+
+  async getRatings(doctorId) {
+    await delay(200);
+    // In real app, would fetch from feedback service
+    // For now, return calculated rating from doctor data
+    const doctor = doctors.find(d => d.Id === parseInt(doctorId, 10));
+    if (!doctor) {
+      throw new Error('Doctor not found');
+    }
+    
+    return {
+      averageRating: doctor.rating || 0,
+      totalReviews: doctor.reviewCount || 0
+    };
+  },
+
+  async updateRating(doctorId, newRating, reviewCount) {
+    await delay(200);
+    const index = doctors.findIndex(d => d.Id === parseInt(doctorId, 10));
+    if (index === -1) {
+      throw new Error('Doctor not found');
+    }
+    
+    doctors[index] = {
+      ...doctors[index],
+      rating: newRating,
+      reviewCount: reviewCount
+    };
+    
+    return { ...doctors[index] };
   }
 };
 
