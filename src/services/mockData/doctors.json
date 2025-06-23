@@ -1,0 +1,87 @@
+[
+  {
+    "Id": 1,
+    "name": "Dr. Sarah Johnson",
+    "specialization": "Cardiology",
+    "email": "sarah.johnson@mediflow.com",
+    "phone": "+1 (555) 123-4567",
+    "availability": {
+      "monday": ["09:00", "17:00"],
+      "tuesday": ["09:00", "17:00"],
+      "wednesday": ["09:00", "17:00"],
+      "thursday": ["09:00", "17:00"],
+      "friday": ["09:00", "15:00"]
+    },
+    "patientCount": 45,
+    "status": "active",
+    "yearsExperience": 12
+  },
+  {
+    "Id": 2,
+    "name": "Dr. Michael Chen",
+    "specialization": "Neurology",
+    "email": "michael.chen@mediflow.com",
+    "phone": "+1 (555) 234-5678",
+    "availability": {
+      "monday": ["08:00", "16:00"],
+      "tuesday": ["08:00", "16:00"],
+      "wednesday": ["08:00", "16:00"],
+      "thursday": ["08:00", "16:00"],
+      "friday": ["08:00", "14:00"]
+    },
+    "patientCount": 38,
+    "status": "active",
+    "yearsExperience": 15
+  },
+  {
+    "Id": 3,
+    "name": "Dr. Emily Rodriguez",
+    "specialization": "Pediatrics",
+    "email": "emily.rodriguez@mediflow.com",
+    "phone": "+1 (555) 345-6789",
+    "availability": {
+      "monday": ["10:00", "18:00"],
+      "tuesday": ["10:00", "18:00"],
+      "wednesday": ["10:00", "18:00"],
+      "thursday": ["10:00", "18:00"],
+      "friday": ["10:00", "16:00"]
+    },
+    "patientCount": 52,
+    "status": "active",
+    "yearsExperience": 8
+  },
+  {
+    "Id": 4,
+    "name": "Dr. James Wilson",
+    "specialization": "Orthopedics",
+    "email": "james.wilson@mediflow.com",
+    "phone": "+1 (555) 456-7890",
+    "availability": {
+      "monday": ["07:00", "15:00"],
+      "tuesday": ["07:00", "15:00"],
+      "wednesday": ["07:00", "15:00"],
+      "thursday": ["07:00", "15:00"],
+      "friday": ["07:00", "13:00"]
+    },
+    "patientCount": 29,
+    "status": "active",
+    "yearsExperience": 20
+  },
+  {
+    "Id": 5,
+    "name": "Dr. Lisa Kim",
+    "specialization": "Dermatology",
+    "email": "lisa.kim@mediflow.com",
+    "phone": "+1 (555) 567-8901",
+    "availability": {
+      "monday": ["09:00", "17:00"],
+      "tuesday": ["09:00", "17:00"],
+      "wednesday": ["09:00", "17:00"],
+      "thursday": ["09:00", "17:00"],
+      "friday": ["09:00", "15:00"]
+    },
+    "patientCount": 33,
+    "status": "active",
+    "yearsExperience": 10
+  }
+]

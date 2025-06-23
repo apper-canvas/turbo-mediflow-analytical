@@ -1,0 +1,126 @@
+[
+  {
+    "Id": 1,
+    "name": "John Smith",
+    "dateOfBirth": "1985-03-15",
+    "gender": "Male",
+    "phone": "+1 (555) 111-2222",
+    "email": "john.smith@email.com",
+    "address": "123 Main St, Springfield, IL 62701",
+    "bloodType": "A+",
+    "medicalHistory": [
+      {
+        "condition": "Hypertension",
+        "diagnosedDate": "2020-01-15",
+        "status": "ongoing"
+      },
+      {
+        "condition": "Diabetes Type 2",
+        "diagnosedDate": "2021-06-10",
+        "status": "managed"
+      }
+    ],
+    "emergencyContact": {
+      "name": "Jane Smith",
+      "relationship": "Spouse",
+      "phone": "+1 (555) 111-3333"
+    },
+    "lastVisit": "2024-01-15",
+    "status": "active"
+  },
+  {
+    "Id": 2,
+    "name": "Maria Garcia",
+    "dateOfBirth": "1992-07-22",
+    "gender": "Female",
+    "phone": "+1 (555) 222-3333",
+    "email": "maria.garcia@email.com",
+    "address": "456 Oak Ave, Springfield, IL 62702",
+    "bloodType": "O-",
+    "medicalHistory": [
+      {
+        "condition": "Asthma",
+        "diagnosedDate": "2010-04-20",
+        "status": "managed"
+      }
+    ],
+    "emergencyContact": {
+      "name": "Carlos Garcia",
+      "relationship": "Father",
+      "phone": "+1 (555) 222-4444"
+    },
+    "lastVisit": "2024-01-10",
+    "status": "active"
+  },
+  {
+    "Id": 3,
+    "name": "Robert Johnson",
+    "dateOfBirth": "1978-11-08",
+    "gender": "Male",
+    "phone": "+1 (555) 333-4444",
+    "email": "robert.johnson@email.com",
+    "address": "789 Pine St, Springfield, IL 62703",
+    "bloodType": "B+",
+    "medicalHistory": [
+      {
+        "condition": "High Cholesterol",
+        "diagnosedDate": "2019-09-12",
+        "status": "ongoing"
+      }
+    ],
+    "emergencyContact": {
+      "name": "Linda Johnson",
+      "relationship": "Wife",
+      "phone": "+1 (555) 333-5555"
+    },
+    "lastVisit": "2024-01-08",
+    "status": "active"
+  },
+  {
+    "Id": 4,
+    "name": "Emily Davis",
+    "dateOfBirth": "1995-05-30",
+    "gender": "Female",
+    "phone": "+1 (555) 444-5555",
+    "email": "emily.davis@email.com",
+    "address": "321 Elm St, Springfield, IL 62704",
+    "bloodType": "AB+",
+    "medicalHistory": [],
+    "emergencyContact": {
+      "name": "Tom Davis",
+      "relationship": "Brother",
+      "phone": "+1 (555) 444-6666"
+    },
+    "lastVisit": "2024-01-12",
+    "status": "active"
+  },
+  {
+    "Id": 5,
+    "name": "David Wilson",
+    "dateOfBirth": "1960-12-03",
+    "gender": "Male",
+    "phone": "+1 (555) 555-6666",
+    "email": "david.wilson@email.com",
+    "address": "654 Maple Dr, Springfield, IL 62705",
+    "bloodType": "A-",
+    "medicalHistory": [
+      {
+        "condition": "Arthritis",
+        "diagnosedDate": "2018-03-25",
+        "status": "ongoing"
+      },
+      {
+        "condition": "Heart Disease",
+        "diagnosedDate": "2022-01-10",
+        "status": "ongoing"
+      }
+    ],
+    "emergencyContact": {
+      "name": "Susan Wilson",
+      "relationship": "Daughter",
+      "phone": "+1 (555) 555-7777"
+    },
+    "lastVisit": "2024-01-14",
+    "status": "active"
+  }
+]

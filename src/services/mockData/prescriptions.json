@@ -1,0 +1,96 @@
+[
+  {
+    "Id": 1,
+    "appointmentId": 5,
+    "patientId": 5,
+    "doctorId": 4,
+    "patientName": "David Wilson",
+    "doctorName": "Dr. James Wilson",
+    "medicines": [
+      {
+        "name": "Ibuprofen",
+        "dosage": "400mg",
+        "frequency": "Twice daily",
+        "duration": "7 days",
+        "instructions": "Take with food to avoid stomach upset"
+      },
+      {
+        "name": "Acetaminophen",
+        "dosage": "500mg",
+        "frequency": "As needed",
+        "duration": "14 days",
+        "instructions": "Do not exceed 8 tablets per day"
+      }
+    ],
+    "instructions": "Continue physical therapy exercises. Apply ice for 15 minutes after activity. Return if pain persists beyond 2 weeks.",
+    "createdAt": "2024-01-19",
+    "status": "active"
+  },
+  {
+    "Id": 2,
+    "appointmentId": 1,
+    "patientId": 1,
+    "doctorId": 1,
+    "patientName": "John Smith",
+    "doctorName": "Dr. Sarah Johnson",
+    "medicines": [
+      {
+        "name": "Lisinopril",
+        "dosage": "10mg",
+        "frequency": "Once daily",
+        "duration": "30 days",
+        "instructions": "Take in the morning with or without food"
+      },
+      {
+        "name": "Metformin",
+        "dosage": "500mg",
+        "frequency": "Twice daily",
+        "duration": "30 days",
+        "instructions": "Take with meals to reduce stomach upset"
+      }
+    ],
+    "instructions": "Monitor blood pressure daily. Continue low-sodium diet. Schedule follow-up in 4 weeks for medication adjustment if needed.",
+    "createdAt": "2024-01-15",
+    "status": "active"
+  },
+  {
+    "Id": 3,
+    "appointmentId": 2,
+    "patientId": 2,
+    "doctorId": 3,
+    "patientName": "Maria Garcia",
+    "doctorName": "Dr. Emily Rodriguez",
+    "medicines": [
+      {
+        "name": "Albuterol Inhaler",
+        "dosage": "90mcg",
+        "frequency": "As needed",
+        "duration": "90 days",
+        "instructions": "Use before exercise or when experiencing breathing difficulty"
+      }
+    ],
+    "instructions": "Keep inhaler with you at all times. Rinse mouth after use. Avoid known triggers like dust and pollen.",
+    "createdAt": "2024-01-10",
+    "status": "active"
+  },
+  {
+    "Id": 4,
+    "appointmentId": 4,
+    "patientId": 4,
+    "doctorId": 5,
+    "patientName": "Emily Davis",
+    "doctorName": "Dr. Lisa Kim",
+    "medicines": [
+      {
+        "name": "Hydrocortisone Cream",
+        "dosage": "1%",
+        "frequency": "Twice daily",
+        "duration": "14 days",
+        "instructions": "Apply thin layer to affected area only"
+      }
+    ],
+    "instructions": "Avoid sun exposure on treated areas. Use gentle, fragrance-free moisturizer. Return if condition worsens.",
+    "createdAt": "2024-01-12",
+    "status": "active"
+  }
+]
